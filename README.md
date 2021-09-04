@@ -9,7 +9,7 @@ Deploy vless on heroku
 
 Friendly reminder: After fork this project, change heroku deploy address to your own name.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Dimitri2020007/vless-heroku.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rainpoi/vless-heroku.git)
 
 # VLESS Client Setup
 
@@ -18,7 +18,7 @@ Friendly reminder: After fork this project, change heroku deploy address to your
 | `Address` | yourAppName.herokuapp.com </br> Cloudflare Reverse Proxy IP |
 | `SNI` | none |
 | `AllowInsecure` | false |
-| `Port` | 443 |
+| `Port` | 843 |
 | `Host` | yourAppName.herokuapp.com </br> Cloudflare Reverse Proxy Domain Name |
 | `Path` | /$ID-vless |
 | `id` | Generate using UUID generator or V2RayN/V2RayNG client generate </br> [uuidgenerator](https://www.uuidgenerator.net/) |
